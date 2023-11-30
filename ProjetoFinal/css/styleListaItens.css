@@ -1,0 +1,76 @@
+/* styleListaItens.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container th,
+.container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.container th {
+    background-color: #f2f2f2;
+}
+
+.sem-underline {
+    text-decoration: none;
+    color: rgb(210, 208, 208);
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #73ced8, #3700ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center; 
+}
+
+
+.cor {
+    background-image: linear-gradient(to bottom, #73ced8, #3700ff);
+    border: 2px solid #73b1d8; 
+    padding: 10px;  
+}
+
+
+.cabecalho ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.cabecalho li {
+    display: inline; 
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/stylef.css">
+    <title>Cadastro de Funcionários</title>
+</head>
+<body>
+    <div class="cor">
+        <div class="cabecalho">
+            <header>    
+                <ul>
+                    <li><a href="/sistema" class="sem-underline">Sistema de estoque</a></li>
+                    <li><a href="/funcionario" class="sem-underline">Cadastro de Funcionários</a></li>
+                    <li><a href="/item" class="sem-underline">Cadastro de Itens</a></li>
+                    <li><a href="/itens" class="sem-underline">Itens</a></li>
+                    <li><a href="/funcionarios" class="sem-underline">Funcionários</a></li>
+                </ul>
+            </header>
+        </div>
+    </div> 
+    <div class="container">
+        <h2>Cadastro de Funcionários</h2>
+        <form id="funcionarioForm" action="/adicionar-funcionario" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="cargo">Cargo:</label>
+                <input type="text" id="cargo" name="cargo" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <button type="submit" class="btn">Cadastrar Funcionário</button>
+        </form>
+    </div>
+</body>
+</html>
